@@ -1,0 +1,127 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "java_lista_1",
+    "dateExported": "2024-01-22T19:05:01.067Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "fbd8d344-7bbd-4078-b7cf-f3fdd8e03455",
+            "name": "calculate",
+            "containerId": "",
+            "created": "2024-01-22T14:38:25.759Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "d43c1654-3633-447d-bd25-b7c6097b33bc",
+            "name": "tools",
+            "containerId": "",
+            "created": "2024-01-22T14:38:47.447Z",
+            "sortNum": 20000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "bfbd54f6-70fd-4066-ace4-fbed9a64735e",
+            "colId": "ed89886f-020d-4a46-9f72-d8e064553663",
+            "containerId": "fbd8d344-7bbd-4078-b7cf-f3fdd8e03455",
+            "name": "getIsEven",
+            "url": "http://localhost:8080/api/calculate/is-even/2",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-01-22T14:33:32.576Z",
+            "modified": "2024-01-22T18:56:32.322Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "5504045e-f81f-4880-b208-e4144aad40ae",
+            "colId": "ed89886f-020d-4a46-9f72-d8e064553663",
+            "containerId": "fbd8d344-7bbd-4078-b7cf-f3fdd8e03455",
+            "name": "getMultiplicationTable",
+            "url": "http://localhost:8080/api/calculate/multiplication-table/2",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-01-22T14:33:55.197Z",
+            "modified": "2024-01-22T18:56:39.837Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "5de7e131-049d-435f-9018-f209d70bb620",
+            "colId": "ed89886f-020d-4a46-9f72-d8e064553663",
+            "containerId": "fbd8d344-7bbd-4078-b7cf-f3fdd8e03455",
+            "name": "getFibonacci",
+            "url": "http://localhost:8080/api/calculate/fibonacci/10",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-01-22T14:35:27.889Z",
+            "modified": "2024-01-22T18:56:45.055Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "7f84a21a-5ce2-488c-9314-f5afe3b8d7ee",
+            "colId": "ed89886f-020d-4a46-9f72-d8e064553663",
+            "containerId": "d43c1654-3633-447d-bd25-b7c6097b33bc",
+            "name": "postFindDuplicates",
+            "url": "http://localhost:8080/api/tools/find-duplicates",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-01-22T15:46:13.938Z",
+            "modified": "2024-01-22T15:47:14.445Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"array1\": [\"Morango\", \"Banana\", \"Maçã\", \"Uva\", \"Caqui\"],\n  \"array2\": [\"Manga\", \"Caqui\", \"Morango\", \"Amora\"]\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "5a512691-495e-4e53-90d4-7e6fbd7c9412",
+            "colId": "ed89886f-020d-4a46-9f72-d8e064553663",
+            "containerId": "fbd8d344-7bbd-4078-b7cf-f3fdd8e03455",
+            "name": "getNumbersPiramid",
+            "url": "http://localhost:8080/api/calculate/numbers-piramid/9",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-01-22T14:36:08.689Z",
+            "modified": "2024-01-22T14:38:13.574Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "c8702217-36d0-4a52-aee2-fd1812d19e82",
+            "colId": "ed89886f-020d-4a46-9f72-d8e064553663",
+            "containerId": "d43c1654-3633-447d-bd25-b7c6097b33bc",
+            "name": "getHollidays",
+            "url": "http://localhost:8080/api/tools/hollidays",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-01-22T18:03:31.018Z",
+            "modified": "2024-01-22T18:05:29.586Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "22d996c2-ab2d-45ad-8e28-c6a1bd15f423",
+            "colId": "ed89886f-020d-4a46-9f72-d8e064553663",
+            "containerId": "d43c1654-3633-447d-bd25-b7c6097b33bc",
+            "name": "getIsHolliday",
+            "url": "http://localhost:8080/api/tools/hollidays/25-12-2024",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-01-22T18:05:09.888Z",
+            "modified": "2024-01-22T18:32:19.764Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
