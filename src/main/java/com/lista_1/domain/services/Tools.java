@@ -1,6 +1,11 @@
 package com.lista_1.domain.services;
 import java.util.logging.Logger;
+
+import com.lista_1.domain.entities.Day;
+import com.lista_1.domain.entities.Days;
+
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.logging.Level;
 
 public class Tools {
@@ -30,5 +35,15 @@ public class Tools {
         
         logger.log(this.defaultLogLevel, result);
         return result;
+    }
+
+    public Collection<Day> getHollidays() {
+        Days daysList = new Days();
+        return daysList.getHollidays();
+    }
+
+    public String isHolliday(String date) {
+        Days daysList = new Days();
+        return daysList.isHolliday(date);
     }
 }
