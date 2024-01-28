@@ -18,4 +18,4 @@ mvn spring-boot:run
 ```
 
 ## Rotas
-As rotas podem ser importadas para o thunder client atráves das collections localizadas na pasta .api-collections localizada na raíz do projeto.
+As rotas podem ser importadas para o thunder client atráves das collections localizadas na pasta: [.api-collections](https://github.com/thiagomayrink/java_lista_1/tree/main/.api-collections) localizada na raíz do projeto.
